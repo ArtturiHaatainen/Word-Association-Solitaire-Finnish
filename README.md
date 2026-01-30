@@ -2,7 +2,7 @@
 
 A simple **word association / category-based solitaire game** for mobile devices.
 
-Instead of traditional playing cards, the game uses **word cards** and **category cards**. The goal is to place each word into the correct category using logic and associations.
+Instead of traditional playing cards, the game uses **word cards** and **category cards**. The goal is to place each word into the correct category using logic and associations. Main reason for making this in Finnish is because I couldn't find any Finnish versions of these types of games.
 
 The project is planned to be built with **React Native** and run on both **Android and iOS**.
 
