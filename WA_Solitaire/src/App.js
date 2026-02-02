@@ -1,9 +1,13 @@
-import { Text, View } from 'react-native';
+import { useState } from 'react';
+import GameScreen from './screens/GameScreen';
+import Welcome from './screens/Welcome';
 
 export default function App() {
-  return (
-    <View>
-      <Text>Word Solitaire</Text>
-    </View>
-  );
+  const [screen, setScreen] = useState("welcome")
+
+  if (screen == "welcome"){
+    return <Welcome onStartGame={() => setScreen("game")}/>
+  }
+  return <GameScreen onGoBack={() => setScreen('welcome')} />;
+
 }
