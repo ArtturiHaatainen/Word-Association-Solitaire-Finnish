@@ -19,7 +19,7 @@ The project is planned to be built with **React Native** and run on both **Andro
   3. The game checks whether the word belongs to that category
 - When all words are placed correctly, the level is completed.
 
-The game focuses on **logic and thinking**, without time limits or story elements.
+The game focuses on **logic and thinking**, without time limits or story elements(yet).
 
 ---
 
@@ -27,9 +27,8 @@ The game focuses on **logic and thinking**, without time limits or story element
 
 - Simple word–category matching gameplay
 - One codebase for Android and iOS
-- English-first development (easy to localize later)
 - Levels defined as data (easy to add new levels)
-- Clean and minimal mobile UI
+- Clean and minimal mobile UI (for now)
 
 ---
 
@@ -52,6 +51,10 @@ Nothing has been implemented yet. The goal of this repository is to:
 - Define the game idea clearly
 - Serve as a base for future development
 
+**First development stage (ONGOING)**
+
+Made first screens and some buttons to go back and forth between screens. No gamelogic yet.
+
 ---
 
 ## 📌 Goals for the First Version
@@ -62,4 +65,4 @@ Nothing has been implemented yet. The goal of this repository is to:
 
 ---
 
-This project is a personal learning project and a simple game prototype.
+This project is a personal learning project and a simple game prototype (for now).
